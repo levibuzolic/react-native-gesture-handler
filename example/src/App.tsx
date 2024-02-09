@@ -48,6 +48,7 @@ import ManualGestures from './new_api/manualGestures/index';
 import Hover from './new_api/hover';
 import HoverableIcons from './new_api/hoverable_icons';
 import VelocityTest from './new_api/velocityTest';
+import TwoPointerTap from './new_api/twoPointerTap';
 
 import EmptyExample from './empty/EmptyExample';
 
@@ -124,6 +125,7 @@ const EXAMPLES: ExamplesSection[] = [
   {
     sectionTitle: 'New api',
     data: [
+      { name: 'Two Pointer Tap', component: TwoPointerTap },
       {
         name: 'Simple interaction with Reanimated',
         component: ReanimatedSimple,
